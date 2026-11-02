@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-02T22:22:49",
+  "data_path": "D:\\Data_S\\csgo\\data\\csgo.csv",
+  "n_rows": 1133,
+  "n_cols": 17,
+  "python": "3.11.4",
+  "sklearn": "1.8.0",
+  "pandas": "2.2.3",
+  "params": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "models": [
+      "svm",
+      "random_forest"
+    ]
+  }
+}
