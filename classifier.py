@@ -1,8 +1,10 @@
 from pathlib import Path
 
 import pandas as pd
+from models.LinearRegression import train_logistic_regression
 from models.RandomForestClassifier import train_random_forest
 from models.svm import train_svm
+from models.XGBoost import train_xgboost
 from utils.artifacts import (
     build_run_info,
     create_run_dir,
@@ -22,6 +24,8 @@ RANDOM_STATE = 42
 MODELS = {
     "svm": train_svm,
     "random_forest": train_random_forest,
+    "logistic_regression": train_logistic_regression,
+    "xgboost": train_xgboost,
 }
 
 
