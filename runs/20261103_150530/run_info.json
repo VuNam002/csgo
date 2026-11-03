@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-03T15:05:30",
+  "data_path": "C:\\ML\\csgo\\data\\csgo.csv",
+  "n_rows": 1133,
+  "n_cols": 17,
+  "python": "3.11.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.0",
+  "params": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "models": [
+      "svm",
+      "random_forest",
+      "logistic_regression",
+      "xgboost",
+      "lightgbm"
+    ]
+  }
+}

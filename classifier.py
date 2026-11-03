@@ -14,6 +14,8 @@ from utils.artifacts import (
 from utils.evaluation import evaluate_model
 from utils.preprocessing import split_data
 
+from models.LightGBM import train_lightgbm
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "data" / "csgo.csv"
 
@@ -26,6 +28,7 @@ MODELS = {
     "random_forest": train_random_forest,
     "logistic_regression": train_logistic_regression,
     "xgboost": train_xgboost,
+    "lightgbm": train_lightgbm,
 }
 
 

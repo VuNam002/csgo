@@ -2,6 +2,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.pipeline import Pipeline
 from utils.preprocessing import create_preprocessing_pipeline
 
+
 def train_xgboost(X_train, X_test, y_train, y_test):
     prep = create_preprocessing_pipeline()
     clf = GradientBoostingClassifier(
